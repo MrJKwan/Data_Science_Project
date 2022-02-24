@@ -1,0 +1,26 @@
+CREATE TABLE imagen(
+    nombre char(128)
+)
+
+INSERT INTO public.imagen(
+	nombre)
+	VALUES ('https://i.ibb.co/VCcTRp1/Imagen-Prueba-1.jpg');
+	
+INSERT INTO public.imagen(
+	nombre)
+	VALUES ('https://i.ibb.co/YXMjBVB/Imagen-Prueba-2.jpg');
+	
+INSERT INTO public.imagen(
+	nombre)
+	VALUES ('https://i.ibb.co/tLQCJyQ/Imagen-Prueba-3.jpg');
+	
+INSERT INTO public.imagen(
+	nombre)
+	VALUES ('https://i.ibb.co/kXz7gYW/Imagen-Prueba-4.jpg');
+	
+INSERT INTO public.imagen(
+	nombre)
+	VALUES ('https://i.ibb.co/njyJd9J/Imagen-Prueba-5.jpg');
+	
+SELECT nombre
+	FROM public.imagen;
